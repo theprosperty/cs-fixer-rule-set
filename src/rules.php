@@ -24,6 +24,11 @@ return [
     'blank_line_before_statement' => [
         'statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try'],
     ],
+    'no_extra_blank_lines' => [
+        'tokens' => [
+            'extra',
+        ],
+    ],
     'ordered_class_elements' => [
         'order' => [
             'use_trait',
