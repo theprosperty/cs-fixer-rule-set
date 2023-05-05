@@ -57,7 +57,7 @@ return [
     'whitespace_after_comma_in_array' => true,
     'single_trait_insert_per_statement' => true,
     'single_space_around_construct' => [
-        'constructs' => [
+        'constructs_followed_by_a_single_space' => [
             'abstract',
             'as',
             'attribute',
